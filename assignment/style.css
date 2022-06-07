@@ -4,10 +4,12 @@ body {
 }
 /* Make the header and footer a different color from the background */
 header {
-    color: red;
+    padding: 10px;
+    background: green;
 }
 footer {
-    color:green;
+    padding: 10px;
+    background: purple;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
@@ -15,7 +17,7 @@ h1 {
 }
 /* Make your p tag a different color and italic */
 p {
-    color: navy;
+    color: white;
     font-style: italic;
 }
 /* Put a border around your image */
@@ -23,3 +25,6 @@ img {
     border: 10px dotted blue
 }
 /* Change the font-family of your list */
+ul {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
